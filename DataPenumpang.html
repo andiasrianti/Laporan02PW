@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Penumpang</title>
+</head>
+<body>
+   
+    <nav>
+        <img src="traveloka-logo.png" alt="" width="100" height="50" /> | <a href="registrasi akum.html">Login Akun</a> | <a href="DataPenumpang.html">Data Penumpang</a> | <a href="Tiket.html">Tiket</a> |
+        <a href="UploadDokumen.html">Dokumen</a> | 
+      </nav>
+      <h2>HALAMAN DATA DIRI PENUMPANG</h2>
+    <fieldset>
+        <legend>Data Diri</legend>
+        <table>
+            <tr><td><label for="nama">Nama Lengkap :</label></td>
+              <td><input type="text" id="nama" name="nama" required placeholder="Nama Lengkap Anda" /></td>
+            </tr>
+            <tr>
+               <td><label for="tempat">Tempat Lahir :</label></td>
+               <td><input type="text" required></td>
+            </tr>
+            <tr>
+               <td><label for="tanggal">Tanggal Lahir :</label></td>
+               <td><input type="date" required></td>
+            </tr>
+               <td><label for="alamat">Alamat :</label></td>
+               <td> <textarea id="Alamat" name="alamat" required></textarea></td>
+    
+            </tr> 
+            <tr>
+                <td><label for="nik">NIK :</label></td>
+                <td><input type="text" id="nik" name="nik" required placeholder="Masukkan 16 digit angka" /></td>
+            </tr>
+            <tr>
+                <td>Email : </td>
+                <td><input type="email" name="email" required</td>
+            </tr>
+            <tr>
+                <td>No.HP : </td>
+                <td><input type="text" name="nomor" required></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin :</td>
+                <td><input type="radio" name="jk" value="lk" required>Laki-Laki</td>
+                <td><input type="radio" name="jk" value="pr" required>Perempuan</td>
+            </tr>
+            <tr>
+                <td>Agama : </td>
+                <td> <select name="agama" id="Agama">
+                    <option value="Islam" required>Islam</option>
+                    <option value="Kristen" required>Kristen</option>
+                    <option value="Katholik" reqired>Katholik</option>
+                    <option value="Buddha" required>Buddha</option>
+                    <option value="Hindu" required>Hindu</option>
+                    <option value="Khonghucu" required>Khonghucu</option>
+                </td> </select>
+            </tr>
+            
+        
+     </table>
+     <button type="submit" name="submit"><a href="login akun.html">Sebelumnya</a></button>
+     <button type="submit" value="kirim">Submit</button>
+     <button type="reset" value="batal">Reset</button>
+     <button type="submit" name="submit"><a href="Tiket.html">Selanjutnya</a></button>
+    </fieldset> 
+       
+</body>
+</html>
